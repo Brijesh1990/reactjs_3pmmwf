@@ -1,0 +1,14 @@
+body 
+{
+    background-color: lightblue;
+}
+div 
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background-color: black;
+    padding: 35px;
+    color: white;
+    margin-top: 15%;
+}
