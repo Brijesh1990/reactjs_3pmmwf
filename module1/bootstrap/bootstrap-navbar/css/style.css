@@ -1,0 +1,15 @@
+.navbar-link li
+{
+    display: inline-block !important;
+}
+.navbar-link a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 15px;
+    color: white;
+}
+.dropdown:hover .dropdown-menu 
+{
+    display: block;
+}
