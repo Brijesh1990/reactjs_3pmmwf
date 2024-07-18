@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+    function display()
+    {
+        let n1=document.getElementById("n1").value;
+        let n2=document.getElementById("n2").value;
+        let n3=document.getElementById("n3").value;
+        // check conditions 
+        if(n1>n2 && n1>n3)
+    {
+        // console.log('n1 is greter Numbers');
+        document.getElementById("demo").innerHTML="N1 is greter Number";
+    }
+    else if(n2>n1 && n2 >n3)
+    {
+        // console.log('n2 is greter Numbers');
+        document.getElementById("demo").innerHTML="N2 is greter Number";
+        
+    }
+    else if(n3>n1 && n3>n2)
+    {
+        // console.log('n3 is greter Numbers');
+        document.getElementById("demo").innerHTML="N3 is greter Number";
+    }
+    else 
+    {
+        // console.log('something went wrong try again');
+        document.getElementById("demo").innerHTML="Something went wrong";
+    }
+    }
+    
+    </script>
+    <p id="demo"></p>
+    <form>
+        <input type="text" id="n1" placeholder="Enter N1 numbers *" />
+        <br><br>
+        <input type="text" id="n2" placeholder="Enter N2 numbers *" />
+        <br><br>
+        <input type="text" id="n3" placeholder="Enter N3 numbers *" />
+        <br><br>
+        <button type="button" onclick="display()"  placeholder="Enter N1 numbers *">Check Numbers</button>
+        <br><br>
+    </form>
+    
+</body>
+</html>
