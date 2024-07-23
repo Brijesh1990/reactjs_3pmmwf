@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+   <h1 align="center">View Cart</h1>
+    <table align="center" width="80%" border="1" cellpadding="8">
+    
+        <tr>
+            <td>1001</td>
+            <td>samsung guru</td>
+            <td>Rs.<input type="text" id="price" value="1225" style="border: none; width:85px" readonly /></td>
+            <td>Select qty :<input type="number" id="qty" value="1" min="1" max="10" style="width:85px" onchange="subtotal()"/></td>
+            <td><a href="#">delete</a></td>
+            </tr>
+            <tr>
+            <td colspan="5" align="right">
+                <h2>Subtotals of Products is Rs .<label id="tot">1225</label></h2>
+            </td>
+        </tr>
+    </table>
+
+    <script>
+        function subtotal()
+        {
+            var price=document.getElementById("price").value;
+            var qty=document.getElementById("qty").value;
+            var t=price*qty;
+            document.getElementById("tot").innerHTML=t;
+
+        }
+    </script>
+</body>
+</html>
