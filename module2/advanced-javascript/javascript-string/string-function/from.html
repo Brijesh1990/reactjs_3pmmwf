@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script>
+        function chk()
+        {
+            var name=document.getElementById("name");
+            // alert(name.toUpperCase());
+            name.value=name.value.toUpperCase();
+
+            var em=document.getElementById("email");
+            // alert(name.toUpperCase());
+            em.value=em.value.toUpperCase();
+
+
+            var ad=document.getElementById("address");
+            // alert(name.toUpperCase());
+            ad.value=ad.value.toUpperCase();
+
+            var fnm=document.getElementById("fnm");
+            // alert(name.toUpperCase());
+            fnm.value=fnm.value.toUpperCase();
+
+            var lnm=document.getElementById("lnm");
+            // alert(name.toUpperCase());
+            lnm.value=lnm.value.toUpperCase();
+
+
+        }
+    </script>
+</head>
+<body>
+
+    <center>
+        <form>
+
+            <h3>Please fill all field in uppercase </h3>
+            Enter Name :<input type="text" id="name" placeholder="Name *" onblur="chk()" />
+            <br><br>
+            
+            Enter Email :<input type="text" id="email" placeholder="Email *" onblur="chk()" />
+            <br><br>
+
+            
+            Enter address :<input type="text" id="address" placeholder="Address *"  onblur="chk()"/>
+            <br><br>
+            
+            Enter firstname :<input type="text" id="fnm" placeholder="FirstName *" onblur="chk()" />
+            <br><br>
+            
+            Enter lastname :<input type="text" id="lnm" placeholder="LastName *" onblur="chk()" />
+            <br><br>
+            
+            <input type="submit"  value="Register" />
+            <br><br>
+        </form>
+    </center>
+    
+</body>
+</html>
