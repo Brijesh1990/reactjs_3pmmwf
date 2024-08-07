@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+<body>
+<!-- <div id="main-header"></div>
+<div id="main-navbar"></div>
+<div id="main-slider"></div>
+<div id="main-content"></div>
+<div id="main-footer"></div>
+<script type="module">
+import {Header,Navbar,Slider,Content,Footer} from './layout.js';
+document.getElementById("main-header").innerHTML=Header(); 
+</script>    
+-->
+<p id="head"></p>
+<script type="module">
+import {Header,Navbar,Slider,Content,Footer} from './layout.js'
+//document.getElementById("head").innerHTML=Header();
+document.getElementById("head").innerHTML=Header+""+Navbar+""+Slider+""+Content+""+Footer;
+</script>
+
+</body>
+</html>
