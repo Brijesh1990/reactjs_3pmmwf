@@ -1,6 +1,6 @@
 /* 
 what is js promises ? 
-  js promises is an object that is links to in producing of code or consuming of code to performed any task there we used primises. 
+  js promises is an object that is links to in producing of code or consuming of code to performed any task there we used promises. 
   js promises is an object  that is perfomred some operations to handel asynchrounous in very easy way.
   js by default support asynchrounos. 
 

@@ -9,7 +9,7 @@ let contValue=new Promise(function(resolve,reject)
     }
     else 
     {
-        reject('The is no count values is found')
+        reject('There is no count values is found')
     }
 })
 console.log(contValue);
