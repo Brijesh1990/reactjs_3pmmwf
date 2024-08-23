@@ -4,9 +4,37 @@ node_modules =>
  NPM => npm stands for node package manager this is an dependency manager for react app without this we can install any new libraries inside of react app.
 
    
-public=>
-src=>
-package.json
+public=> index.html 
+         favicons
+         logo images
+         robots.txt     seo friendly website
+ 
+
+src=>   src is main folder of react app where we can create our components inside of react js.
+
+         components => App.js or App.jsx 
+                    
+                    =>About.js 
+                    =>Aboutus.js 
+                    =>Services.js  
+                    => Note : any components will be saved with forst letter should be uppercase or camel case.
+
+                    =>components function first letter name should be always in uppercase.
+
+                          
+              
+                      
+package.json  => package.json provides all details of our application 
+
+                 => appname
+                 => react version
+                 => react-dom version
+                    
+               Note : all external libraries install via npm install and it will be registerd inside of package.json 
+
+                 
+                 
+ 
 package.lock.json 
 readme
 .gitignore  => ignore a folder to upload on git repository /node_modules
