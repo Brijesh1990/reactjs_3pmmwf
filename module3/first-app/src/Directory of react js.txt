@@ -1,0 +1,13 @@
+node_modules =>
+  node_modules is help to install a new libraries | packages | run react js app via npm start.
+
+ NPM => npm stands for node package manager this is an dependency manager for react app without this we can install any new libraries inside of react app.
+
+   
+public=>
+src=>
+package.json
+package.lock.json 
+readme
+.gitignore  => ignore a folder to upload on git repository /node_modules
+.env 
