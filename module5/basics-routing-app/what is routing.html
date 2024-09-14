@@ -1,0 +1,53 @@
+what is routing ?
+Routing is used to navigate one page to another page there we used react routing
+React does not provides a default routing library so we need to install it. 
+Routing provides some modules that are ...
+
+cmd : npm install react-router-dom 
+
+a)BroswerRouter or Router :BroswerRouter is alias of Router  it meanse it is provides as parent of each routing. 
+<Router>
+
+</Router>   
+
+b)Routes : Routes is an child of Router 
+<Router>
+<Routes>
+
+</Routes>
+</Router>
+c)Route:It is a child of Routes and load each page content or Components of Pages.
+<Router>
+<Routes>
+<Route></Route>
+</Routes>
+</Router> 
+d)Path:it is decide a routing path name '/'
+<Router>
+<Routes>
+<Route path="/"></Route>
+</Routes>
+</Router> 
+e)element: it is load the routing components where the path of pages load by which components.
+<Router>
+<Routes>
+<Route path="/" element={<Layout />}></Route>
+</Routes>
+</Router> 
+f)*  : * search all pages components of user hit unwanted url in home page its return page not found or 404 errors. 
+
+<Router>
+<Routes>
+<Route path="/" element={<Layout />}></Route>
+<Route path="/about-us" element={<About />}></Route>
+<Route path="/contact-us" element={<Contact />}></Route>
+<Route path="*" element={<PageNotFound />}></Route>
+</Routes>
+</Router> 
+
+g)NavLink:<NavLink to="/">Home</NavLink>
+This is replacements of <a href="/">Home</a> 
+h)Link :<Link to="/">Home</Link>
+This is replacemenets of <a href="/">Home</a> 
+i)Outlet :Outlet is an module ie used to hit home page redirections of Routing or it is load a current page Route <Outlet />
+

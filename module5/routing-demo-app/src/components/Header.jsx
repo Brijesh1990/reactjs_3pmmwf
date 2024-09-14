@@ -1,5 +1,6 @@
 import React from 'react'
 import { MDBContainer,MDBRow,MDBBtn } from 'mdb-react-ui-kit'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -23,7 +24,7 @@ export default function Header() {
                 <span className='ms-1 fs-4 bi bi-twitter'></span>
                 <span className='ms-1 fs-4 bi bi-youtube'></span>
                 <span className='ms-1 fs-4 bi bi-instagram'></span>
-                <MDBBtn className='btn btn-sm btn-dark ms-2 text-white'>Cart <span className='bi bi-cart'>0</span></MDBBtn>
+                <Link to="/view-cart"><MDBBtn className='btn btn-sm btn-dark ms-2 text-white'>Cart <span className='bi bi-cart'>0</span></MDBBtn></Link>
             </div>
         </MDBRow>
       </MDBContainer>

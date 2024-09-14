@@ -1,0 +1,33 @@
+
+body {
+  margin: 0;
+  background-color: lightblue;
+}
+.app 
+{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding: 40px;
+  background-color: white;
+  margin-top: 5%;
+
+}
+.navbar 
+{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding: 15px;
+}
+.navbar ul li 
+{
+  display: inline-block;
+  padding: 5px 20px;
+}
+.navbar a 
+{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
