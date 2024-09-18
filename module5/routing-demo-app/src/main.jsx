@@ -17,6 +17,9 @@ import PageNotFound from './components/PageNotFound';
 // e-shopper admin panel
 import './assets/admin/css/style.css'
 import AdminLogin from './components/admin/AdminLogin';
+import AdminDashboard from './components/admin/AdminDashboard';
+import AddCategory from './components/admin/AddCategory';
+import ManageCategory from './components/admin/ManageCategory';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -29,6 +32,9 @@ createRoot(document.getElementById('root')).render(
         <Route path='/view-cart' element={<Cart />} />
         <Route path='*' element={<PageNotFound />} />
         <Route path='/admin-login' element={<AdminLogin />} />
+        <Route path='/admin-login/dashboard' element={<AdminDashboard />} />
+        <Route path='/admin-login/addcategory' element={<AddCategory />} />
+        <Route path='/admin-login/managecategory' element={<ManageCategory />} />
       </Routes>
     </Router>
   </StrictMode>,

@@ -35,7 +35,7 @@ export default function AdminHeader() {
           </button>
         </div>
       </div>
-      <div className="admin-notification col-md-3 p-2 mt-0">
+      <div className="admin-notification col-md-3 p-0">
         <button type="button" className="btn btn-sm btn-danger text-white">
           <span className="badge bg-danger start-0 top-0 rounded-pill">
             <span className="bi bi-person-add">0</span>
@@ -86,7 +86,7 @@ export default function AdminHeader() {
       </div>
     </div>
   </div>
-  {/* admin sidebar */}
+  
 </>
 
   )
