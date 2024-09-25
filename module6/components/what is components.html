@@ -1,0 +1,53 @@
+what is React components  ?
+ components is small peace of .js or .jsx file inside of react js i.e called components.
+ components are reusables 
+ components are reusables using import 
+ components are render inside of html elements using fragments 
+ components is used to asign or used properties in props 
+
+    function display(props)
+    {
+        return(
+        
+           statements
+
+        )
+             }
+ 
+ types of components : 
+  a) function components 
+  b) class components
+
+  if we used function components there we render html elements inside of fregmments
+  if componenets is functional there we return it.
+  if components is class based it values is render 
+
+  class ClassName extends Components
+  {
+    render()
+    {
+        return(
+            <>
+            statements;
+            </>
+        )
+    }
+  }
+
+
+  or
+
+
+  class Greeting extends React.Component {
+    constructor(props) {
+      super(props);
+    }
+    render() {
+      return (
+        <p>Hello, Universe</p>
+      );
+    }
+  }
+
+
+  Note : inside of react 16.2 class based components no more support hooks. 
