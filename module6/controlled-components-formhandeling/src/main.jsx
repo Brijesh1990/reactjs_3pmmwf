@@ -1,10 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+// import AddEmployee from './components/AddEmployee.jsx'
+import AddForm from './components/AddForm'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+  {/* <AddEmployee/> */}
+  <AddForm />
   </StrictMode>,
 )
