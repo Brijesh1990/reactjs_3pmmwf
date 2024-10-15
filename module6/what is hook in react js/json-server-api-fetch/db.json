@@ -1,0 +1,68 @@
+{
+    "users":[
+        {
+            "id":101,
+            "name":"brijesh kumar pandey",
+            "age":35,
+            "address":"150 feet ring road"
+        },
+        {
+            "id":102,
+            "name":"sameer",
+            "age":25,
+            "address":"150 feet ring road"
+        },
+        {
+            "id":103,
+            "name":"krishna kumar",
+            "age":26,
+            "address":"150 feet ring road"
+        },
+        {
+            "id":104,
+            "name":"nacx",
+            "age":35,
+            "address":"150 feet ring road"
+        }
+    ],
+
+    "products":[
+        {
+            "id":1,
+            "photo":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1712052017/Croma%20Assets/Communication/Mobiles/Images/193178_0_ghmlfa.png",
+            "name":"samsung guru",
+            "oldprice":"1450",
+            "price":"1150",
+            "qty":1,
+            "descriptions":"good phone with keypad"
+        },
+
+        {
+            "id":2,
+            "photo":"https://www.91-img.com/gallery_images_uploads/b/a/bafa5130f1d0e57c8cce7639d277206ee9b1aeaf.jpg?tr=h-271,c-at_max,q-80",
+            "name":"samsung s24 ultra",
+            "oldprice":"145000",
+            "price":"115000",
+            "qty":1,
+            "descriptions":"good phone with keypad"
+        },
+        {
+            "id":3,
+            "photo":"https://5.imimg.com/data5/SELLER/Default/2023/3/VT/OG/NB/15900654/samsung-galaxy-s23-ultra-phantom-black.webp",
+            "name":"samsung s23 ultra",
+            "oldprice":"115000",
+            "price":"87000",
+            "qty":1,
+            "descriptions":"good phone with keypad"
+        },
+        {
+            "id":4,
+            "photo":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1712052017/Croma%20Assets/Communication/Mobiles/Images/193178_0_ghmlfa.png",
+            "name":"samsung guru",
+            "oldprice":"1250",
+            "price":"950",
+            "qty":1,
+            "descriptions":"good phone with keypad"
+        }
+    ]
+}
