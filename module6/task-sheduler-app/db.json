@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": "7b30",
+      "taskname": "angular js crud operation",
+      "addeddate": "2024-10-17",
+      "users": "sameer"
+    },
+    {
+      "id": "3bea",
+      "taskname": "react js cruid api",
+      "addeddate": "2024-10-18",
+      "users": "krishna"
+    },
+    {
+      "id": "1af0",
+      "taskname": "laravel sanctum api integration",
+      "addeddate": "2024-10-17",
+      "users": "brijesh"
+    },
+    {
+      "id": "719e",
+      "taskname": "passport rest api c reate in laravel",
+      "addeddate": "2024-10-17",
+      "users": "brijesh"
+    },
+    {
+      "id": "b9eb",
+      "taskname": "create ORM model in angular",
+      "addeddate": "2024-10-18",
+      "users": "sameer"
+    },
+    {
+      "id": "3999",
+      "taskname": "abcd",
+      "addeddate": "2024-10-17",
+      "users": "brijesh"
+    }
+  ]
+}
