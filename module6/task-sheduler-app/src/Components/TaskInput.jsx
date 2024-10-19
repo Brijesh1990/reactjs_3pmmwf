@@ -2,6 +2,7 @@ import React, { useRef,useState,useEffect } from 'react'
 import { Container} from 'react-bootstrap'
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import { useNavigate } from 'react-router-dom';
 // import { useNavigate } from 'react-router-dom';
 // axios : axios is a external module of libraries that is used to call api using its methods.
 // we can used axios to performed crud operation in api 
@@ -31,7 +32,7 @@ useEffect(()=>{
 const taskname=useRef("");
 const addeddate=useRef("");
 const users=useRef("");
-// const navigate=useNavigate();
+const navigate=useNavigate();
 // add formHandeler function 
 const addTaskHandeler=(e)=>
     {
@@ -92,7 +93,11 @@ const addTaskHandeler=(e)=>
                     <td>{item.users}</td>
                   
                     
-                    <td><button className='btn btn-sm btn-danger text-white bg-danger'><span className='bi bi-trash'></span></button></td>
+                    <td><button type='button' onClick={()=>{navigate(`/delete-data/${item.id}`)}} className='btn btn-sm btn-danger text-white bg-danger'><span className='bi bi-trash'></span></button>
+                    
+                    | <button type='button' onClick={()=>{navigate(`/edit-data/${item.id}`)}} className='btn btn-sm btn-danger text-white bg-primary'><span className='bi bi-pencil'></span></button>
+                    
+                    </td>
                     </tr>
                     </>
                 )
