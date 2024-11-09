@@ -1,0 +1,84 @@
+{
+  "contact-us": [
+    {
+      "id": "d624",
+      "name": "brijesh",
+      "email": "bkpandey@gmail.com",
+      "phone": "9998003879",
+      "subject": "hi",
+      "message": "hi"
+    },
+    {
+      "id": "866e",
+      "name": "rajesh",
+      "email": "rajesh@gmail.com",
+      "phone": "9212121212121",
+      "subject": "hi",
+      "message": "hi"
+    },
+    {
+      "id": "c423",
+      "name": "sameer",
+      "email": "sameer@gmail.com",
+      "phone": "912121212121",
+      "subject": "hi",
+      "message": "hi sameer"
+    },
+    {
+      "id": "3f83",
+      "name": "raj",
+      "email": "raj007@gmail.com",
+      "phone": "95152121212",
+      "subject": "hi ",
+      "message": "hi i am raj"
+    },
+    {
+      "id": "ee8c",
+      "name": "jitesh",
+      "email": "jiteshsharma007@gmail.com",
+      "phone": "9998003879",
+      "subject": "24x7 custmer support",
+      "message": "hi i "
+    }
+  ],
+  "feedback-us": [
+    {
+      "id": "5a11"
+    }
+  ],
+  "customers": [
+    {
+      "id": "002f"
+    }
+  ],
+  "cart": [
+    {
+      "id": "e330"
+    }
+  ],
+  "checkout": [
+    {
+      "id": "0d99"
+    }
+  ],
+  "addcategory": [
+    {
+      "id": "5b62"
+    }
+  ],
+  "addsubcategory": [
+    {
+      "id": "3e89"
+    }
+  ],
+  "addproducts": [
+    {
+      "id": "0c29"
+    }
+  ],
+  "manage-orders": [
+    {
+      "id": "d249"
+    }
+  ]
+}

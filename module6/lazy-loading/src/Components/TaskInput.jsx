@@ -7,16 +7,20 @@ import { useNavigate } from 'react-router-dom';
 // axios : axios is a external module of libraries that is used to call api using its methods.
 // we can used axios to performed crud operation in api 
 // axios provides some methods get | post | put | delete | update 
-
 // axios.post() => add data 
 // axios.get() => manage data
 // axios.put() => update data
 // axios.delete()=> delete data
-
-
 const TaskInput = () => {
 // destructuring of data 
 const[task,setTask]=useState(0);
+//destructuring for lazy loader
+const[loader,setLoader]=useState(true);
+useEffect(()=>{
+setTimeout(()=>{
+  setLoader(false);
+},3500);
+},[]);
 // for diplay data
 useEffect(()=>{
     // call api
@@ -61,6 +65,32 @@ const addTaskHandeler=(e)=>
 
     } 
   return (
+    loader ?
+    <>
+      <>
+  <div style={{width:"50%", height:"auto",margin:"auto", marginTop:"8%"}}>
+  <div className="spinner-grow text-primary mx-auto mt-5" role="status" style={{width:"8rem",height:"8rem"}}>
+    <span className="visually-hidden">Loading...</span>
+  </div>
+  <div className="spinner-grow text-secondary" role="status" style={{width:"8rem",height:"8rem"}}>
+    <span className="visually-hidden">Loading...</span>
+  </div>
+  <div className="spinner-grow text-success" role="status" style={{width:"8rem",height:"8rem"}}>
+    <span className="visually-hidden">Loading...</span>
+  </div>
+  <div className="spinner-grow text-danger" role="status" style={{width:"8rem",height:"8rem"}}>
+    <span className="visually-hidden">Loading...</span>
+  </div>
+  <div className="spinner-grow text-warning" role="status" style={{width:"8rem",height:"8rem"}}>
+    <span className="visually-hidden">Loading...</span>
+  </div>
+  </div>
+ 
+</>
+    
+    </> 
+    :
+    
     <div>
       <Container className='mt-5 p-4 w-50 shadow mx-auto'>
       <h1 className='fs-xl fs-4'>Add Task   <button type="button" className='border border-0 bg-light float-end'>Total Added Task :<span className='badge badge-sm bg-danger'>{task.length}</span></button></h1>
