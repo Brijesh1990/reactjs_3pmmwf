@@ -1,4 +1,5 @@
 import React,{useState,useEffect,useRef} from 'react'
+import emailjs from '@emailjs/browser';
 import { MDBContainer,MDBRow,MDBCard,MDBCardBody } from 'mdb-react-ui-kit'
 import Header from './Header'
 import Navbar from './Navbar'
@@ -9,6 +10,10 @@ import Swal from 'sweetalert2'
 export default function Contact() {
 //destructuring of contact us data  // 
 const[data,setData]=useState("");
+// stored all parameter in variables 
+const serviceID="service_yetf8ga";
+const templateID="template_biqlwwu";
+const publicKey="pTcb6q47xuRiZaSQm";
 const name=useRef("");
 const email=useRef("");
 const phone=useRef("");
@@ -18,6 +23,8 @@ const navigate=useNavigate();
 // call api via axios.post()
 const addFormData=(e)=>{
   e.preventDefault();
+    // send email via email js 
+    emailjs.sendForm(serviceID,templateID,e.target,publicKey);
   var ins={
     name:name.current.value,
     email:email.current.value,
@@ -26,6 +33,7 @@ const addFormData=(e)=>{
     message:message.current.value
    
   }
+
   // call api here
   axios.post(`http://localhost:8000/contact-us`,ins).then(()=>{
     // pass message
@@ -62,22 +70,22 @@ jalaram plot-2 Rajkot - 360005
 <h2 className='text-center'>Contact us Form</h2>
 <form onSubmit={addFormData} className='w-75 p-5 mx-auto'>
 <div className='form-group mt-2'>
-<input type='text' ref={name} placeholder='Name *' className='form-control' />
+<input type='text' ref={name} name="name" placeholder='Name *' className='form-control' />
 </div>
 <div className='form-group mt-2'>
-<input type='text' ref={email} placeholder='Email *' className='form-control' />
-</div>
-
-<div className='form-group mt-2'>
-<input type='text' ref={phone} placeholder='Phone *' className='form-control' />
+<input type='text' ref={email} name="email" placeholder='Email *' className='form-control' />
 </div>
 
 <div className='form-group mt-2'>
-<input type='text' ref={subject} placeholder='Subject *' className='form-control' />
+<input type='text' ref={phone} name="phone" placeholder='Phone *' className='form-control' />
 </div>
 
 <div className='form-group mt-2'>
-<textarea type='text' ref={message} placeholder='Message *' className='form-control'></textarea>
+<input type='text' ref={subject} name='subject' placeholder='Subject *' className='form-control' />
+</div>
+
+<div className='form-group mt-2'>
+<textarea type='text' ref={message} name='message' placeholder='Message *' className='form-control'></textarea>
 </div>
 <div className='form-group mt-2'>
 <input type='submit'  className='btn btn-sm btn-dark text-white' value="Send" /> 

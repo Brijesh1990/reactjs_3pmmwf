@@ -54,9 +54,9 @@ return (
             <td>{item.phone}</td>
             <td>{item.subject}</td>
             <td>{item.message}</td>
-            <td><Button className='btn btn-danger btn-sm'><span className='bi bi-trash text-white'></span></Button>
+            <td><div style={{width:"200px"}}><Button className='btn btn-danger btn-sm'><span className='bi bi-trash text-white'></span></Button>
             | <Button className='btn btn-primary btn-sm'><span className='bi bi-pencil text-white'></span></Button>
-            
+            </div>
             </td>
         </tr>
             </>
