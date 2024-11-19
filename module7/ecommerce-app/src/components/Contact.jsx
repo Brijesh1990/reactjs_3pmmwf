@@ -1,52 +1,52 @@
 import React,{useState,useEffect,useRef} from 'react'
-import emailjs from '@emailjs/browser';
 import { MDBContainer,MDBRow,MDBCard,MDBCardBody } from 'mdb-react-ui-kit'
 import Header from './Header'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import Swal from 'sweetalert2'
 export default function Contact() {
-//destructuring of contact us data  // 
-const[data,setData]=useState("");
-// stored all parameter in variables 
-const serviceID="service_yetf8ga";
-const templateID="template_biqlwwu";
-const publicKey="pTcb6q47xuRiZaSQm";
-const name=useRef("");
-const email=useRef("");
-const phone=useRef("");
-const subject=useRef("");
-const message=useRef("");
-const navigate=useNavigate();
-// call api via axios.post()
-const addFormData=(e)=>{
-  e.preventDefault();
-    // send email via email js 
-    emailjs.sendForm(serviceID,templateID,e.target,publicKey);
-  var ins={
-    name:name.current.value,
-    email:email.current.value,
-    phone:phone.current.value,
-    subject:subject.current.value,
-    message:message.current.value
+
+  // create a eventHandeler function for add Data in contact us api and send email that data on admin email address
+  const serviceId="";//paste your email js account public key
+  const templateId="";//paste your email js account public key
+  const publicId=""; //paste your email js account public key
+  const name=useRef("");
+  const email=useRef("");
+  const phone=useRef("");
+  const subject=useRef("");
+  const message=useRef("");
+  const navigate=useNavigate("");
+
+  // create an eventhandeler function 
+  const addContactFormData=(e)=>{
+    e.preventDefault();
+    // send all data in admin email also
+    emailjs.sendForm(serviceId,templateId,e.target,publicId);
+    var insert={
+ 
+        name:name.current.value,
+        email:email.current.value,
+        phone:phone.current.value,
+        subject:subject.current.value,
+        message:message.current.value
+    }
+    // call api 
+    axios.post(`http://localhost:8000/contact-us`,insert).then(()=>{
+      Swal.fire('Thanks for contact with us our admin will contact with you Soon!')
+
+      navigate('/contact-us');
+      e.target.reset();
+
+    });
    
+
   }
 
-  // call api here
-  axios.post(`http://localhost:8000/contact-us`,ins).then(()=>{
-    // pass message
-    Swal.fire({
-      title: "Good job!",
-      text: "Thanks for contact with us Our admin will contact with you soon!",
-      icon: "success"
-    });
 
-  });
-  navigate('/contact-us');
-  e.target.reset();
-}
+
 
 return (
 <div>
@@ -68,7 +68,7 @@ jalaram plot-2 Rajkot - 360005
 <MDBCard>
 <MDBCardBody className='p-1'>
 <h2 className='text-center'>Contact us Form</h2>
-<form onSubmit={addFormData} className='w-75 p-5 mx-auto'>
+<form onSubmit={addContactFormData} className='w-75 p-5 mx-auto'>
 <div className='form-group mt-2'>
 <input type='text' ref={name} name="name" placeholder='Name *' className='form-control' />
 </div>

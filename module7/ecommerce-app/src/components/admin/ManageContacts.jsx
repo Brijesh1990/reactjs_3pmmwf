@@ -26,7 +26,7 @@ return (
 {/* dashboard content */}
 {/* admin dashboard content */}
 <div className="admin-dashboard col-md-9 p-3">
-<h2 className="ms-3 p-4 mt-3">Manage All Contacts Us Form Data here</h2>
+<h2 className="ms-3 p-4 mt-3">Manage All Contacts Us Form Data here <button className='btn btn-lg btn-danger float-end'>Export Data in CSV <span className='bi bi-file-excel'></span></button></h2>
 <hr className="border border-1 border-dark w-50 ms-5" align="left" />
 {/* manage category here */}
 <Table className='table table-responsive'>
@@ -55,7 +55,7 @@ return (
             <td>{item.subject}</td>
             <td>{item.message}</td>
             <td><div style={{width:"200px"}}><Button className='btn btn-danger btn-sm'><span className='bi bi-trash text-white'></span></Button>
-            | <Button className='btn btn-primary btn-sm'><span className='bi bi-pencil text-white'></span></Button>
+            | <Button className='btn btn-primary btn-sm' title="click to whatsapp Me"><span className='bi bi-whatsapp text-white'></span></Button>
             </div>
             </td>
         </tr>
