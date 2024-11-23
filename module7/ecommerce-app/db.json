@@ -128,6 +128,81 @@
   "addcategory": [
     {
       "id": "5b62"
+    },
+    {
+      "id": "5d7f",
+      "category": "",
+      "categoryDesc": "",
+      "dateInp": ""
+    },
+    {
+      "id": "059a",
+      "category": "",
+      "categoryDesc": "",
+      "dateInp": ""
+    },
+    {
+      "id": "07fa",
+      "category": "aa",
+      "categoryDesc": "aaa",
+      "dateInp": "2024-11-23"
+    },
+    {
+      "id": "2500",
+      "category": "",
+      "categoryDesc": "",
+      "dateInp": ""
+    },
+    {
+      "id": "2447",
+      "category": "",
+      "categoryDesc": "",
+      "dateInp": ""
+    },
+    {
+      "id": "35b7",
+      "category": "",
+      "categoryDesc": "",
+      "dateInp": ""
+    },
+    {
+      "id": "7da1",
+      "category": "",
+      "categoryDesc": "",
+      "dateInp": ""
+    },
+    {
+      "id": "81ee",
+      "category": "",
+      "categoryDesc": "",
+      "dateInp": ""
+    },
+    {
+      "id": "a7fa",
+      "category": "",
+      "categoryDesc": "",
+      "dateInp": ""
+    },
+    {
+      "id": "c37f"
+    },
+    {
+      "id": "a94a",
+      "category": "electronics",
+      "categoryDesc": "electronics",
+      "dateInp": "2024-11-23"
+    },
+    {
+      "id": "d864",
+      "category": "",
+      "categoryDesc": "",
+      "dateInp": ""
+    },
+    {
+      "id": "dbca",
+      "category": "abc",
+      "categoryDesc": "abc",
+      "dateInp": "2024-11-23"
     }
   ],
   "addsubcategory": [
