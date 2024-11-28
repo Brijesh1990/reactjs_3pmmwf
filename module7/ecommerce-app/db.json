@@ -127,92 +127,100 @@
   ],
   "addcategory": [
     {
-      "id": "5b62"
+      "id": "15d5",
+      "category": "Electronics",
+      "categoryDesc": "good for lectronics",
+      "dateInp": "2024-11-28"
     },
     {
-      "id": "5d7f",
-      "category": "",
-      "categoryDesc": "",
-      "dateInp": ""
+      "id": "cecf",
+      "category": "Home Appliences",
+      "categoryDesc": "good for lectronics",
+      "dateInp": "2024-11-28"
     },
     {
-      "id": "059a",
-      "category": "",
-      "categoryDesc": "",
-      "dateInp": ""
-    },
-    {
-      "id": "07fa",
-      "category": "aa",
-      "categoryDesc": "aaa",
-      "dateInp": "2024-11-23"
-    },
-    {
-      "id": "2500",
-      "category": "",
-      "categoryDesc": "",
-      "dateInp": ""
-    },
-    {
-      "id": "2447",
-      "category": "",
-      "categoryDesc": "",
-      "dateInp": ""
-    },
-    {
-      "id": "35b7",
-      "category": "",
-      "categoryDesc": "",
-      "dateInp": ""
-    },
-    {
-      "id": "7da1",
-      "category": "",
-      "categoryDesc": "",
-      "dateInp": ""
-    },
-    {
-      "id": "81ee",
-      "category": "",
-      "categoryDesc": "",
-      "dateInp": ""
-    },
-    {
-      "id": "a7fa",
-      "category": "",
-      "categoryDesc": "",
-      "dateInp": ""
-    },
-    {
-      "id": "c37f"
-    },
-    {
-      "id": "a94a",
-      "category": "electronics",
-      "categoryDesc": "electronics",
-      "dateInp": "2024-11-23"
-    },
-    {
-      "id": "d864",
-      "category": "",
-      "categoryDesc": "",
-      "dateInp": ""
-    },
-    {
-      "id": "dbca",
-      "category": "abc",
-      "categoryDesc": "abc",
-      "dateInp": "2024-11-23"
+      "id": "5d70",
+      "category": "Home & Furnitures",
+      "categoryDesc": "good for Home",
+      "dateInp": "2024-11-28"
     }
   ],
   "addsubcategory": [
     {
-      "id": "3e89"
+      "id": "b7b0",
+      "category": "Electronics",
+      "subcategory": "mobiles",
+      "subcategoryDesc": "mobiles",
+      "dateInp": "0005-05-04"
+    },
+    {
+      "id": "f0f9",
+      "category": "Home Appliences",
+      "subcategory": "Refrigerator",
+      "subcategoryDesc": "good",
+      "dateInp": "2024-11-28"
     }
   ],
   "addproducts": [
     {
-      "id": "0c29"
+      "id": "aaa4",
+      "categoryname": "Electronics",
+      "subcategoryname": "mobiles",
+      "imgurl": "aaa",
+      "productname": "aaa",
+      "oldprice": "aaa",
+      "newprice": "aaa",
+      "qty": "1",
+      "descriptions": "aa",
+      "date": "2024-11-28"
+    },
+    {
+      "id": "4a83",
+      "categoryname": "Electronics",
+      "subcategoryname": "mobiles",
+      "imgurl": "adasdasd",
+      "productname": "sadasdasd",
+      "oldprice": "adadas",
+      "newprice": "asdad",
+      "qty": "1",
+      "descriptions": "dfgfdgdf",
+      "date": "2024-11-28"
+    },
+    {
+      "id": "2868",
+      "categoryname": "Electronics",
+      "subcategoryname": "mobiles",
+      "imgurl": "adasdasd",
+      "productname": "sadasdasd",
+      "oldprice": "adadas",
+      "newprice": "asdad",
+      "qty": "1",
+      "descriptions": "dfgfdgdf",
+      "date": "2024-11-28"
+    },
+    {
+      "id": "447c",
+      "categoryname": "Electronics",
+      "subcategoryname": "mobiles",
+      "imgurl": "aaa",
+      "productname": "aaa",
+      "oldprice": "aa",
+      "newprice": "aaa",
+      "qty": "1",
+      "descriptions": "dd",
+      "date": "2024-11-28"
+    },
+    {
+      "id": "ad22",
+      "categoryname": "Electronics",
+      "subcategoryname": "mobiles",
+      "imgurl": "",
+      "productname": "",
+      "oldprice": "",
+      "newprice": "",
+      "qty": "",
+      "descriptions": "",
+      "date": ""
     }
   ],
   "manage-orders": [

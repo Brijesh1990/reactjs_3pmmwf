@@ -7,16 +7,165 @@ export default function Content() {
     <div>
       <MDBContainer className='p-5 mt-5'>
         <MDBRow>
-            <div className='col-md-4'>
+
+            <div data-aos="flip-left" className='col-md-4'>
              <img src={img} alt='images' className='img-fluid' />
             </div>
-            <div className='col-md-8'>
+
+            <div  data-aos="flip-left" className='col-md-8'>
                 <MDBCard>
                     <MDBCardBody className='p-5'>
                     <h2 className='text-center'>Welcome to Home Page</h2>
                     </MDBCardBody>
                 </MDBCard>
             </div>
+
+
+
+            <div data-aos="flip-left" className='col-md-4'>
+             <img src={img} alt='images' className='img-fluid' />
+            </div>
+
+            <div  data-aos="flip-left" className='col-md-8'>
+                <MDBCard>
+                    <MDBCardBody className='p-5'>
+                    <h2 className='text-center'>Welcome to Home Page</h2>
+                    </MDBCardBody>
+                </MDBCard>
+            </div>
+
+
+
+
+            <div data-aos="flip-left" className='col-md-4'>
+             <img src={img} alt='images' className='img-fluid' />
+            </div>
+
+            <div  data-aos="flip-left" className='col-md-8'>
+                <MDBCard>
+                    <MDBCardBody className='p-5'>
+                    <h2 className='text-center'>Welcome to Home Page</h2>
+                    </MDBCardBody>
+                </MDBCard>
+            </div>
+
+
+
+
+            <div data-aos="flip-left" className='col-md-4'>
+             <img src={img} alt='images' className='img-fluid' />
+            </div>
+
+            <div  data-aos="flip-left" className='col-md-8'>
+                <MDBCard>
+                    <MDBCardBody className='p-5'>
+                    <h2 className='text-center'>Welcome to Home Page</h2>
+                    </MDBCardBody>
+                </MDBCard>
+            </div>
+
+
+
+
+            <div data-aos="flip-left" className='col-md-4'>
+             <img src={img} alt='images' className='img-fluid' />
+            </div>
+
+            <div  data-aos="flip-left" className='col-md-8'>
+                <MDBCard>
+                    <MDBCardBody className='p-5'>
+                    <h2 className='text-center'>Welcome to Home Page</h2>
+                    </MDBCardBody>
+                </MDBCard>
+            </div>
+
+
+
+
+            <div data-aos="flip-left" className='col-md-4'>
+             <img src={img} alt='images' className='img-fluid' />
+            </div>
+
+            <div  data-aos="flip-left" className='col-md-8'>
+                <MDBCard>
+                    <MDBCardBody className='p-5'>
+                    <h2 className='text-center'>Welcome to Home Page</h2>
+                    </MDBCardBody>
+                </MDBCard>
+            </div>
+
+
+
+
+            <div data-aos="flip-left" className='col-md-4'>
+             <img src={img} alt='images' className='img-fluid' />
+            </div>
+
+            <div  data-aos="flip-left" className='col-md-8'>
+                <MDBCard>
+                    <MDBCardBody className='p-5'>
+                    <h2 className='text-center'>Welcome to Home Page</h2>
+                    </MDBCardBody>
+                </MDBCard>
+            </div>
+
+
+
+            <div data-aos="flip-left" className='col-md-4'>
+             <img src={img} alt='images' className='img-fluid' />
+            </div>
+
+            <div  data-aos="flip-left" className='col-md-8'>
+                <MDBCard>
+                    <MDBCardBody className='p-5'>
+                    <h2 className='text-center'>Welcome to Home Page</h2>
+                    </MDBCardBody>
+                </MDBCard>
+            </div>
+
+
+
+            <div data-aos="flip-left" className='col-md-4'>
+             <img src={img} alt='images' className='img-fluid' />
+            </div>
+
+            <div  data-aos="flip-left" className='col-md-8'>
+                <MDBCard>
+                    <MDBCardBody className='p-5'>
+                    <h2 className='text-center'>Welcome to Home Page</h2>
+                    </MDBCardBody>
+                </MDBCard>
+            </div>
+
+
+
+            <div data-aos="flip-left" className='col-md-4'>
+             <img src={img} alt='images' className='img-fluid' />
+            </div>
+
+            <div  data-aos="flip-left" className='col-md-8'>
+                <MDBCard>
+                    <MDBCardBody className='p-5'>
+                    <h2 className='text-center'>Welcome to Home Page</h2>
+                    </MDBCardBody>
+                </MDBCard>
+            </div>
+
+
+
+            <div data-aos="flip-left" className='col-md-4'>
+             <img src={img} alt='images' className='img-fluid' />
+            </div>
+
+            <div  data-aos="flip-left" className='col-md-8'>
+                <MDBCard>
+                    <MDBCardBody className='p-5'>
+                    <h2 className='text-center'>Welcome to Home Page</h2>
+                    </MDBCardBody>
+                </MDBCard>
+            </div>
+
+            
 
         </MDBRow>
       </MDBContainer>
