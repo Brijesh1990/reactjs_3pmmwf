@@ -11,6 +11,7 @@ import Layout from './Layout'
 import Contact from './components/Contact';
 import Login from './components/Login';
 import Register from './components/Register';
+import ProductDetails from './components/ProductDetails';
 import Cart from './components/Cart';
 import PageNotFound from './components/PageNotFound';
 
@@ -34,6 +35,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/contact-us' element={<Contact />} />
         <Route path='/login' element={<Login />} />
         <Route path='/create-account' element={<Register />} />
+        <Route path='/products-details/:id' element={< ProductDetails />} />
         <Route path='/view-cart' element={<Cart />} />
         <Route path='*' element={<PageNotFound />} />
         <Route path='/admin-login' element={<AdminLogin />} />
