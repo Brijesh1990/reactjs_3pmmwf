@@ -7,7 +7,7 @@ import { MDBContainer,MDBRow,MDBCard,MDBCardBody, MDBCardImage, MDBBtn } from 'm
 import { Link } from 'react-router-dom'
 export default function ViewCart() {
 // manage all contact us data in admin panel
-const[data,setData]=useState([]);
+const[data,setData]=useState();
 useEffect(()=>{
 axios.get(`http://localhost:8000/cart`).then((response)=>{
 setData(response.data);
@@ -26,6 +26,7 @@ return (
 <p className='text-center fs-4'>Missing Cart items?</p>
 <p className='text-center'>Login to see the items you added previously</p>
 <p className='text-center'><Link to="/login"><MDBBtn>Login</MDBBtn></Link></p>
+
 </MDBCard>
 </MDBContainer>
 

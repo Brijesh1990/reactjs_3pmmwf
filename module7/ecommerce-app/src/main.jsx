@@ -13,6 +13,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import ProductDetails from './components/ProductDetails';
 import Cart from './components/Cart';
+import Checkout from './components/Checkout';
 import PageNotFound from './components/PageNotFound';
 
 // e-shopper admin panel
@@ -37,6 +38,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/create-account' element={<Register />} />
         <Route path='/products-details/:id' element={< ProductDetails />} />
         <Route path='/view-cart' element={<Cart />} />
+        <Route path='/checkout-here' element={<Checkout />} />
         <Route path='*' element={<PageNotFound />} />
         <Route path='/admin-login' element={<AdminLogin />} />
         <Route path='/admin-login/dashboard' element={<AdminDashboard />} />

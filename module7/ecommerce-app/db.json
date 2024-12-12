@@ -103,6 +103,14 @@
       "phone": "9998003879",
       "subject": "hi",
       "message": "hi"
+    },
+    {
+      "id": "49ed",
+      "name": "shakti",
+      "email": "shakti@gmail.com",
+      "phone": "99980038799",
+      "subject": "hi i am shakti",
+      "message": "hi shakti"
     }
   ],
   "feedback-us": [
@@ -140,6 +148,15 @@
       "productname": "vivo v8",
       "oldprice": "8500",
       "newprice": "5800",
+      "qty": "1",
+      "descriptions": "good"
+    },
+    {
+      "id": "dd61",
+      "imgurl": "https://electronicparadise.in/cdn/shop/files/3_6750cc1f-6333-4677-a504-a1d76cefd8f7.jpg?v=1717063633&width=1406",
+      "productname": "Whirlpool",
+      "oldprice": "35000",
+      "newprice": "28500",
       "qty": "1",
       "descriptions": "good"
     }

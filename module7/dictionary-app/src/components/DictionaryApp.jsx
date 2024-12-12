@@ -20,7 +20,6 @@ export default function DictionaryApp() {
     // {
 
     // } 
-
     const playAudio=()=>{
         let audio=new Audio(data.phonetics[0].audio);
         audio.play();
