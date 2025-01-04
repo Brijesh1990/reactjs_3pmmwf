@@ -159,6 +159,15 @@
       "newprice": "28500",
       "qty": "1",
       "descriptions": "good"
+    },
+    {
+      "id": "f9f4",
+      "imgurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIAMjGF0qeyWggz3clivcR7hvKBJ4Ogd1H5w&s",
+      "productname": "Oppo A5",
+      "oldprice": "8500",
+      "newprice": "6500",
+      "qty": "1",
+      "descriptions": "What is OPP film? Oriented Polypropylene is known as OPP. This polypropylene film is monoaxially stretched in either the transverse or longitudinal direction."
     }
   ],
   "checkout": [

@@ -1,10 +1,16 @@
 {
   "tasks": [
     {
-      "taskname": "ci/cd deployements operation",
-      "addeddate": "2024-11-08",
+      "taskname": "github deployments",
+      "addeddate": "2024-11-23",
       "users": "sameer",
       "id": "7b30"
+    },
+    {
+      "id": "f35a",
+      "taskname": "react js",
+      "addeddate": "2024-12-23",
+      "users": "sameer"
     }
   ]
 }
